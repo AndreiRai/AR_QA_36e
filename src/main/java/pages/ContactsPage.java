@@ -28,6 +28,7 @@ public class ContactsPage extends PageBase{
     }
 
      public static String getContactPage (String lang) {
+        logger.info("language spicefide"+lang);
          String contactWord = null;
          if (lang.equals("English")) {
              contactWord = "Contacts";
